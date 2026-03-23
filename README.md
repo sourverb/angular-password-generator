@@ -23,19 +23,19 @@ A modern and customizable password generator built using the latest version of A
 
 ## Project Structure
 
-src/ 
-└── app/ 
-│    ├── password-generator/ 
-│    ├── password-generator.ts 
-│    ├── password-generator.html  
-│    └── password-generator.css 
-├── app.ts 
-└── app.html
+- src/ 
+    - app/ 
+        - password-generator/ 
+        - password-generator.ts 
+        - password-generator.html  
+        - password-generator.css 
+    - app.ts 
+    - app.html
 
 ## How to Run the Project Locally
 
 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/angular-password-generator.git
+git clone https://github.com/sourverb/angular-password-generator.git
 
 2. Navigate into the project folder
 cd angular-password-generator
