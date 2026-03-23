@@ -1,59 +1,66 @@
-# PasswordGenerator
+# Angular Password Generator
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
+A modern and customizable password generator built using the latest version of Angular. This project allows users to generate secure passwords with multiple customization options and a real-time strength indicator.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- Adjustable password length using a slider
+- Include/Exclude: 
+    - Uppercase letters
+    - Lowercase letters
+    - Numbers
+    - Special characters
+- Real-time password strength indicator
+- Visual strength bar (color-based)
+- Copy password to clipboard
 
-```bash
+## Tech Stack
+
+- Angular (Latest Version - Standalone Components)
+- TypecSript
+- HTML5
+- CSS3
+
+## Project Structure
+
+src/ 
+└── app/ 
+│    ├── password-generator/ 
+│    ├── password-generator.ts 
+│    ├── password-generator.html  
+│    └── password-generator.css 
+├── app.ts 
+└── app.html
+
+## How to Run the Project Locally
+
+1. Clone the repository
+git clone https://github.com/YOUR-USERNAME/angular-password-generator.git
+
+2. Navigate into the project folder
+cd angular-password-generator
+
+3. Install dependencies
+npm install 
+This install all the required packages for the project.
+
+4. Install Angular CLI (if not installed)
+npm install -g @angular/cli
+
+5. Run the application
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+6. Open in browser
+Go to: http://localhost:4200
 
-## Code scaffolding
+## What I Learned
+- Angular standalone component architecture
+- Data binding ([value], (click), [(ngModel)])
+- Structural directives (*ngIf)
+- Dynamic class binding ([ngClass])
+- Component-based design
+- Basic Git & GitHub workflow
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Contributing
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- This is a beginner project, but suggestions and improvements are always welcome!
