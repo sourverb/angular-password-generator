@@ -28,7 +28,7 @@ A modern and customizable password generator built using the latest version of A
         - password-generator/ 
             - password-generator.ts 
             - password-generator.html  
-            - password-generator.css 
+            - password-generator.css
     - app.ts 
     - app.html
 
@@ -54,6 +54,7 @@ ng serve
 Go to: http://localhost:4200
 
 ## What I Learned
+
 - Angular standalone component architecture
 - Data binding ([value], (click), [(ngModel)])
 - Structural directives (*ngIf)
