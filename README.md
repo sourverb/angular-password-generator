@@ -26,9 +26,9 @@ A modern and customizable password generator built using the latest version of A
 - src/ 
     - app/ 
         - password-generator/ 
-        - password-generator.ts 
-        - password-generator.html  
-        - password-generator.css 
+            - password-generator.ts 
+            - password-generator.html  
+            - password-generator.css 
     - app.ts 
     - app.html
 
